@@ -101,6 +101,7 @@ def calculate_dot_product(vec1, vec2):
 
 
 def calculate_vector_length(vec):
+    
 
     length = 0
 
@@ -109,6 +110,8 @@ def calculate_vector_length(vec):
 
     return length ** 0.5  # square root of the sum
 
+
+# A8
 def calculate_mean(data):
 
     return sum(data) / len(data)
@@ -151,6 +154,7 @@ def calculate_dataset_statistics(df):
 
     return means, variances, standard_deviations
 
+# A9
 def calculate_numpy_statistics(df):
 
     numeric_df = df.select_dtypes(include=["number"])  # select numeric columns
